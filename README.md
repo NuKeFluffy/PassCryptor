@@ -36,6 +36,7 @@ namespace Example
 }
 ```
 Console output if user enters "test123£":
+
 ![ExampleBefore](exampleBefore.png)
 ![ExampleAfter](exampleAfter.png)
 
