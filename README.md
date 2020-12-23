@@ -43,4 +43,5 @@ Console output if user enters "test123£":
 
 ## Contacts
 **Discord**: NuKe Fluffy#0055
+
 **E-Mail**: nukefluffy0@gmail.com
