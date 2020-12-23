@@ -25,7 +25,7 @@ namespace Example
             Cryptor cryptor = new Cryptor(); // Creates an instance of the Cryptor
             
             cryptor.HashKey = '*'; // **Optional** Sets a custom hash key (default: '*')
-            cryptor.InputMessage = "Enter your password: "; #  **Optional** Sets a custom input message (default: "Password: ")
+            cryptor.InputMessage = "Enter your password: "; // **Optional** Sets a custom input message (default: "Password: ")
             
             string password = cryptor.GetPassword(); // Goes through the process of encrypting user input and returns the clean password
             
@@ -36,7 +36,8 @@ namespace Example
 }
 ```
 Console output if user enters "test123£":
-![Example](example.png)
+![ExampleBefore](exampleBefore.png)
+![ExampleAfter](exampleAfter.png)
 
 ## Contacts
 **Discord**: NuKe Fluffy#0055
