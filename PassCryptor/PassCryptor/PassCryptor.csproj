@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>NuKe Fluffy</Authors>
+    <Company />
+    <Description>A basic utility to hide user entered password.</Description>
+    <Copyright>Copyright © 2020 NuKe Fluffy</Copyright>
+    <PackageProjectUrl>https://github.com/NuKeFluffy/PassCryptor</PackageProjectUrl>
+    <PackageIcon>PassCryptor.png</PackageIcon>
+    <RepositoryUrl>https://github.com/NuKeFluffy/PassCryptor</RepositoryUrl>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Version>1.0.1</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\..\Pictures\PassCryptor.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

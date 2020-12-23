@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "2Z0CUacMnHc0Lixq9zo+Gb7TMhq8HNzMV28fjTfSrWcmeBiTjRotJBhkADJlJT2wwnt2GsM3NLa+mQ0g3jENCA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nukef\\source\\repos\\PassCryptor Library\\PassCryptor\\PassCryptor\\PassCryptor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nukef\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\nukef\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
