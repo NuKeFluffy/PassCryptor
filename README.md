@@ -63,6 +63,26 @@ Module Example
 
 End Module
 ```
+Usage example (F#):
+```fsharp
+open System
+open PassCryptor // Imports the library
+
+[<EntryPoint>]
+let main argv =
+
+    let cryptor = new Cryptor() // Creates an instance of the Cryptor Class
+
+    cryptor.HashKey <- '*' // **Optional** Sets a custom hash key (default: '*')
+    cryptor.InputMessage <- "Enter your password: " // **Optional** Sets a custom input message (default: "Password: ")
+
+    let password = cryptor.GetPassword() // Goes through the process of encrypting user input and returns the clean password
+
+    Console.WriteLine("The password you entered was: " + password) // Outputs the password to the console
+    Console.ReadKey() |> ignore // Prevents program from exiting
+
+    0
+```
 Console output if user enters "test123£":
 
 ![ExampleBefore](exampleBefore.png)
