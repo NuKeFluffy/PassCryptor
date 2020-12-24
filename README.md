@@ -36,7 +36,7 @@ namespace Example
 }
 ```
 Usage example (Visual Basic):
-```vb
+```visualbasic
 Imports PassCryptor ' Imports the library
 
 Module Example
