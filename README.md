@@ -11,7 +11,7 @@ Add the following at the beginning of your file:
 ```csharp
 using PassCryptor;
 ```
-Usage example:
+Usage example (C#):
 ```csharp
 using System;
 using PassCryptor; // Imports the library
@@ -35,11 +35,31 @@ namespace Example
     }
 }
 ```
+Usage example (Visual Basic):
+```vb
+Imports PassCryptor
+
+Module Example
+
+    Sub Main()
+        Dim cryptor As Cryptor = New Cryptor()
+        cryptor.HashKey = "*"
+        cryptor.InputMessage = "Enter your password: "
+
+        Dim password As String = cryptor.GetPassword()
+
+        Console.WriteLine("The password you entered was: " + password)
+        Console.ReadKey()
+    End Sub
+
+End Module
+```
 Console output if user enters "test123£":
 
 ![ExampleBefore](exampleBefore.png)
 
 ![ExampleAfter](exampleAfter.png)
+
 
 ## Contacts
 **Discord**: NuKe Fluffy#0055
