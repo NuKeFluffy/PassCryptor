@@ -1,3 +1,9 @@
+[![Git Releases Version](https://img.shields.io/github/release/NuKeFluffy/PassCryptor.svg)](https://github.com/NuKeFluffy/PassCryptor/releases)
+[![NuGet version](https://badge.fury.io/nu/Leaf.xNet.svg)](https://badge.fury.io/nu/PassCryptor)
+[![Build status](https://ci.appveyor.com/api/projects/status/em4aje36etb63kdt/branch/master?svg=true)](https://ci.appveyor.com/project/grandsilence/passcryptor/branch/master)
+[![Last Release](https://img.shields.io/github/release-date/NuKeFluffy/PassCryptor.svg?logo=PassCryptor)](https://github.com/NuKeFluffy/PassCryptor/releases)
+[![Nuget installs](https://img.shields.io/nuget/dt/PassCryptor.svg)](https://www.nuget.org/packages/PassCryptor/)  
+
 # PassCryptor
 A basic .NET utility to hide user entered passwords during authentication.
 
