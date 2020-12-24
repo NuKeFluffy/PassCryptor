@@ -1,5 +1,5 @@
 # PassCryptor
-A basic utility to hide user entered passwords
+A basic .NET utility to hide user entered passwords during authentication.
 
 # Installation: [NuGet](https://www.nuget.org/)
 ```
