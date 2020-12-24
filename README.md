@@ -22,7 +22,7 @@ namespace Example
     {
         static void Main(string[] args)
         {
-            Cryptor cryptor = new Cryptor(); // Creates an instance of the Cryptor
+            Cryptor cryptor = new Cryptor(); // Creates an instance of the Cryptor Class
             
             cryptor.HashKey = '*'; // **Optional** Sets a custom hash key (default: '*')
             cryptor.InputMessage = "Enter your password: "; // **Optional** Sets a custom input message (default: "Password: ")
@@ -37,19 +37,22 @@ namespace Example
 ```
 Usage example (Visual Basic):
 ```vb
-Imports PassCryptor
+Imports PassCryptor ' Imports the library
 
 Module Example
 
     Sub Main()
-        Dim cryptor As Cryptor = New Cryptor()
-        cryptor.HashKey = "*"
-        cryptor.InputMessage = "Enter your password: "
 
-        Dim password As String = cryptor.GetPassword()
+        Dim cryptor As Cryptor = New Cryptor() ' Creates an instance of the Cryptor Class
 
-        Console.WriteLine("The password you entered was: " + password)
-        Console.ReadKey()
+        cryptor.HashKey = "*" ' **Optional** Sets a custom hash key (default: '*')
+        cryptor.InputMessage = "Enter your password: " ' **Optional** Sets a custom input message (default: "Password: ")
+
+        Dim password As String = cryptor.GetPassword() ' Goes through the process of encrypting user input and returns the clean password
+
+        Console.WriteLine("The password you entered was: " + password) ' Outputs the password to the console
+        Console.ReadKey() ' Prevents program from exiting
+
     End Sub
 
 End Module
