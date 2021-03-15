@@ -13,10 +13,6 @@ Install-Package PassCryptor
 ```
 # Usage:
 ### Get started
-Add the following at the beginning of your file:
-```csharp
-using PassCryptor;
-```
 Usage example (C#):
 ```csharp
 using System;
