@@ -86,6 +86,6 @@ Console output if user enters "test123£":
 
 
 ## Contacts
-**Discord**: NuKe Fluffy#0055
+**Discord**: NuKe Fluffy#6016
 
 **E-Mail**: nukefluffy0@gmail.com
