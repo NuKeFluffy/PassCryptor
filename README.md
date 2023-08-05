@@ -83,9 +83,3 @@ Console output if user enters "test123£":
 ![ExampleBefore](exampleBefore.png)
 
 ![ExampleAfter](exampleAfter.png)
-
-
-## Contacts
-**Discord**: Fluffy#7517
-
-**E-Mail**: nukefluffy0@gmail.com
